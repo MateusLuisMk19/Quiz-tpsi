@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html type="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>CinQuiz</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="bibliotecaQuest.js"></script>
+		<script src="Style.js"></script>
+
+    </head>
+
+<body>
+	<div id="present">
+		
+		<video autoplay muted title="Clica no video para voltar" onClick="unShowMid(); startTime()" >
+						Seu navegador não supeta 
+		</video>
+		<img id="imgpresent" title="Clica na imagem para voltar" onClick="unShowMid(); startTime()" >
+	</div>
+	
+	<div id="score">
+		<h3 id="nivel"></h3>
+		<div id="ptic">
+			<div class="ptic" id="pt1">.</div>
+			<div class="ptic" id="pt2">.</div>
+			<div class="ptic" id="pt3">.</div>
+			<div class="ptic" id="pt4">.</div>
+			<div class="ptic" id="pt5">.</div>
+		</div>
+		<hr>
+		<h1 id="pts">0</h1>
+		<h3>Pontos</h3>
+		<hr>
+		
+		<div id="limitTim"></div>
+		<div id="timer"></div>
+	</div>
+	
+	
+	<div class="block" id="quiz">
+		
+		<div class="pergunta">
+			<h1 id="pergunta"></h1>
+			<div id="midia">
+				<a href="#"><div id="btnVid" onClick="showMid(2); pauseTime()">Reproduzir Video</div></a>
+				<audio class="midia" controls onPlay="pauseTime()" onPause="startTime()">
+					Seu navegador não supeta
+				</audio>
+				<img id="imgmidia" title="clica para ver melhor" onClick="showMid(1); pauseTime()" >
+			</div>
+		</div>
+		
+		<div id="opcao1" class="resposta" onClick="opcaoEsc(1); "></div>
+		<div id="opcao2" class="resposta" onClick="opcaoEsc(2); "></div>
+		<div id="opcao3" class="resposta" onClick="opcaoEsc(3)"></div>
+		<div id="opcao4" class="resposta" onClick="opcaoEsc(4)"></div>
+
+		<br>
+
+	</div>
+	
+	<div id="telaFinal">
+		<img class="medalha" id="telf">
+		<h1 class="telaFinal"></h1>
+		<h2 class="telaFinal"></h2>
+		<h4 class="telaFinal"></h4>
+		<h3 class="telaFinal"></h3>
+		<div id="btnTelafinal">
+			<a href="#"><div id="recomecar" onClick="recomecar()">Jogar de novo</div></a>
+			<a href="index.html"><div id="home">Pagina Inicial</div></a>
+		</div>
+		
+	</div>
+
+	
+	<div class="marquee">
+		<marquee id="marquee" loop="1">Teste o seu conhecimento cinematográfico!
+		</marquee>
+    </div>
+</body>
+</html>

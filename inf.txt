@@ -1,0 +1,16 @@
+Bem vindo ao nosso Quiz
+
+Lhe serão apresentadas 20 perguntas divididas por niveis (5 por cada nivel)
+
+por cada pergunta respondida corretamente recebe:
+2 pontos - no nivel 1
+4 pontos - no nivel 2
+6 pontos - no nivel 3
+8 pontos - no nivel 4
+Totalizando 100 pontos (caso responder a todas questões corretamente)
+
+do nivel 1 ao 2, poderá pedir uma unica ajuda (mostrar as chances de acerto da resposta)
+se não tiver usado essa ajuda até o nivel 3 já não poderá mais usar
+
+apartir do nivel 3, poderá usar outra ajuda (eliminar duas opções erradas) 2 vezes
+

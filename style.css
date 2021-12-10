@@ -1,0 +1,159 @@
+body{
+    background-image:url("imagens/Imagemfundo4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#imgmidia{
+	margin: auto;
+	height: 160px;
+}
+.ptic{
+	float: left;
+	width: 14px;
+	height: 14px;
+	border: 1px solid;
+	margin: 2px;
+	border-radius: 10px;
+}
+
+#ptic{
+	width: auto;
+	height: 25px;
+}
+
+#quiz{
+    /* border: 2px solid;*/
+    margin: auto;
+    margin-top: 40px;
+	text-align: center;
+}
+
+.marquee{
+	/* border: 2px solid;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3A0404;
+    padding-top: 10px;
+	vertical-align: middle;	
+}
+
+
+#score{
+	border: 2px solid;
+	float: right;
+	text-align: center;
+}
+
+#timer{
+	font-size: 32px;
+	text-align: center;
+}
+
+#midia{
+	width:auto;
+	height: auto;
+	text-align: center;
+	margin-top: 2%	
+}
+
+#recomecar,#home{
+	/* border: 2px solid;*/
+	margin: 0px 10px ;
+	width: 30%;
+	height: 30px;
+	text-align: center;
+	font-size: 26px;
+	background-color: #3A0404;
+	border-radius: 10px;
+	color: white;
+	float: left;
+}
+
+#btnTelafinal{
+	width: auto;
+	height: 30px;
+	padding-left: 200px
+}
+
+#btnVid{
+	/* border: 2px solid;*/
+	margin: auto;
+	width: 30%;
+	height: 30px;
+	text-align: center;
+	font-size: 26px;
+	background-color: #3A0404;
+	vertical-align: middle;
+	border-radius: 20px;
+	color: white;
+}
+#btnVid:hover,#recomecar:hover, #home:hover{
+	width: 31%;
+	height: 35px;
+	text-align: center;
+	font-size: 31px;
+	background-color: #3A0404;
+	box-shadow: 1px 1px 5px 2px grey;
+}
+
+
+#present{
+	margin-top: 2%;
+	text-align: center;
+}
+
+/*layout in Block Quest*/
+	.resposta{
+		text-align: center;
+		/*border: 2px solid;*/
+		margin: 0.5%;
+		height: 10%;
+		float: left;
+		padding-top: 2.5%;
+		background-color: #F7E6E7;
+	}
+
+	.pergunta{
+		/* border: 2px solid;*/
+		margin: 5px;
+		height: 250px;
+		padding: auto; 
+	}
+
+	#opcao4,#opcao2{
+		float: right;
+	}
+h3.telaFinal{
+	font-size: 26px 
+}
+
+	
+#telaFinal{
+   /* border: 2px solid;*/
+    margin: auto;
+    margin-top: 40px;
+	text-align: center;
+}
+
+/*Bot Hover*/
+	.resposta:hover{
+		background-color: #DBBFCF;
+		box-shadow: 1px 1px 3px 2px #e5e5e5;
+	}
+#imgmidia:hover{
+	opacity: 0.8;
+}
+
+#telf{
+	width: 15%;
+	height: 28%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
